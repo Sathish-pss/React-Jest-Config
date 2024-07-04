@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="1" failures="1" errors="0" time="12.609">
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2024-07-03T13:02:01" time="11.004" tests="1">
+    <testcase classname=" renders ChargePoints component" name=" renders ChargePoints component" time="0.574">
+      <failure>TypeError: (0 , react_router_dom_1.useNavigate) is not a function
+    at DisplayView (C:\Users\ps-0123\Documents\GitHub\ESY_Admin_Panel\src\pages\OCPP\ChargePoints\DisplayView.tsx:17:31)
+    at renderWithHooks (C:\Users\ps-0123\Documents\GitHub\ESY_Admin_Panel\node_modules\react-dom\cjs\react-dom.development.js:16305:18)
+    at mountIndeterminateComponent (C:\Users\ps-0123\Documents\GitHub\ESY_Admin_Panel\node_modules\react-dom\cjs\react-dom.development.js:20074:13)
+    at beginWork (C:\Users\ps-0123\Documents\GitHub\ESY_Admin_Panel\node_modules\react-dom\cjs\react-dom.development.js:21587:16)
+    at beginWork$1 (C:\Users\ps-0123\Documents\GitHub\ESY_Admin_Panel\node_modules\react-dom\cjs\react-dom.development.js:27426:14)
+    at performUnitOfWork (C:\Users\ps-0123\Documents\GitHub\ESY_Admin_Panel\node_modules\react-dom\cjs\react-dom.development.js:26560:12)
+    at workLoopSync (C:\Users\ps-0123\Documents\GitHub\ESY_Admin_Panel\node_modules\react-dom\cjs\react-dom.development.js:26466:5)
+    at renderRootSync (C:\Users\ps-0123\Documents\GitHub\ESY_Admin_Panel\node_modules\react-dom\cjs\react-dom.development.js:26434:7)
+    at recoverFromConcurrentError (C:\Users\ps-0123\Documents\GitHub\ESY_Admin_Panel\node_modules\react-dom\cjs\react-dom.development.js:25850:20)
+    at performConcurrentWorkOnRoot (C:\Users\ps-0123\Documents\GitHub\ESY_Admin_Panel\node_modules\react-dom\cjs\react-dom.development.js:25750:22)
+    at flushActQueue (C:\Users\ps-0123\Documents\GitHub\ESY_Admin_Panel\node_modules\react\cjs\react.development.js:2667:24)
+    at act (C:\Users\ps-0123\Documents\GitHub\ESY_Admin_Panel\node_modules\react\cjs\react.development.js:2582:11)
+    at C:\Users\ps-0123\Documents\GitHub\ESY_Admin_Panel\node_modules\@testing-library\react\dist\act-compat.js:47:25
+    at renderRoot (C:\Users\ps-0123\Documents\GitHub\ESY_Admin_Panel\node_modules\@testing-library\react\dist\pure.js:180:26)
+    at render (C:\Users\ps-0123\Documents\GitHub\ESY_Admin_Panel\node_modules\@testing-library\react\dist\pure.js:271:10)
+    at Object.&lt;anonymous&gt; (C:\Users\ps-0123\Documents\GitHub\ESY_Admin_Panel\src\tests\ChargePoints\ChargePoints.test.tsx:11:9)
+    at Promise.then.completed (C:\Users\ps-0123\Documents\GitHub\ESY_Admin_Panel\node_modules\jest-circus\build\utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\ps-0123\Documents\GitHub\ESY_Admin_Panel\node_modules\jest-circus\build\utils.js:231:10)
+    at _callCircusTest (C:\Users\ps-0123\Documents\GitHub\ESY_Admin_Panel\node_modules\jest-circus\build\run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async _runTest (C:\Users\ps-0123\Documents\GitHub\ESY_Admin_Panel\node_modules\jest-circus\build\run.js:252:3)
+    at async _runTestsForDescribeBlock (C:\Users\ps-0123\Documents\GitHub\ESY_Admin_Panel\node_modules\jest-circus\build\run.js:126:9)
+    at async run (C:\Users\ps-0123\Documents\GitHub\ESY_Admin_Panel\node_modules\jest-circus\build\run.js:71:3)
+    at async runAndTransformResultsToJestFormat (C:\Users\ps-0123\Documents\GitHub\ESY_Admin_Panel\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:122:21)
+    at async jestAdapter (C:\Users\ps-0123\Documents\GitHub\ESY_Admin_Panel\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at async runTestInternal (C:\Users\ps-0123\Documents\GitHub\ESY_Admin_Panel\node_modules\jest-runner\build\runTest.js:367:16)
+    at async runTest (C:\Users\ps-0123\Documents\GitHub\ESY_Admin_Panel\node_modules\jest-runner\build\runTest.js:444:34)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
